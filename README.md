@@ -40,4 +40,21 @@ To build the project execute the following command:
   java -jar .\build\libs\pretest-0.0.1-SNAPSHOT.jar
 ```
 
+## Docker Build and Run
+- Build the project with following command:
 
+```bash
+  ./gradlew build
+```
+
+- Create Image with tag name `inticorporateknologi/pretest`:
+
+```bash
+  docker build --build-arg JAR_FILE=build/libs/pretest-0.0.1-SNAPSHOT.jar -t inticorporateknologi/pretest .
+```
+
+- Run Image with name `pretest_inticorptek` :
+
+```bash
+	docker run --name pretest_inticorptek -p 8080:8080 inticorporateknologi/pretest
+```
