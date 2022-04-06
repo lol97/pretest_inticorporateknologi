@@ -64,9 +64,9 @@ public class UserController {
 				linkAll);
 	}
 
-	@GetMapping("/{id}/contacts")
-	public List<UserContact> getAllContactsById(@PathVariable User id) throws UserNotFoundException {
-		return userService.getAllContactsById(id);
+	@GetMapping("/{userId}/contacts")
+	public List<UserContact> getAllContactsById(@PathVariable String userId) throws UserNotFoundException {
+		return userService.getAllContactsById(userId);
 	}
 
 	@PostMapping("/{userId}/addContact")

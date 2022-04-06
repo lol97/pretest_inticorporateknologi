@@ -30,8 +30,8 @@ public class UserService {
 		return userRepository.save(user);
 	}
 
-	public List<UserContact> getAllContactsById(User id) throws UserNotFoundException {
-		User user = userRepository.findById(id.getId()).orElseThrow(() -> new UserNotFoundException(id.getId()));
+	public List<UserContact> getAllContactsById(String userId) throws UserNotFoundException {
+		User user = userRepository.findById(userId).orElseThrow(() -> new UserNotFoundException(userId));
 		return user.getUserContacts();
 	}
 

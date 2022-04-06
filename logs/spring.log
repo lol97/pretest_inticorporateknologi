@@ -49,4 +49,116 @@
 ""2022-04-06 04:57:22 - Invocation of destroy method failed on bean with name 'entityManagerFactory': org.hibernate.exception.JDBCConnectionException: Unable to release JDBC Connection used for DDL execution
 ""2022-04-06 04:57:22 - HikariPool-1 - Shutdown initiated...
 ""2022-04-06 04:57:22 - HikariPool-1 - Shutdown completed.
+""2022-04-06 11:55:26 - Starting PretestApplicationTests using Java 1.8.0_251 on LAPTOP-G6H7M922 with PID 30692 (started by Sufyan Saori in D:\Doc\AfterS1\inti_corpora\pretest)
+""2022-04-06 11:55:26 - The following 1 profile is active: "dev"
+""2022-04-06 11:55:26 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+""2022-04-06 11:55:26 - Finished Spring Data repository scanning in 28 ms. Found 2 JPA repository interfaces.
+""2022-04-06 11:55:27 - HikariPool-1 - Starting...
+""2022-04-06 11:55:27 - HikariPool-1 - Start completed.
+""2022-04-06 11:55:27 - HHH000204: Processing PersistenceUnitInfo [name: default]
+""2022-04-06 11:55:27 - HHH000412: Hibernate ORM core version 5.6.7.Final
+""2022-04-06 11:55:27 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+""2022-04-06 11:55:27 - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+""2022-04-06 11:55:28 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+""2022-04-06 11:55:28 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+""2022-04-06 11:55:28 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+""2022-04-06 11:55:29 - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+""2022-04-06 11:55:30 - Started PretestApplicationTests in 3.942 seconds (JVM running for 4.818)
+""2022-04-06 11:55:30 - User with id Test1 was not found
+""2022-04-06 11:55:30 - Closing JPA EntityManagerFactory for persistence unit 'default'
+""2022-04-06 11:55:30 - HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+""2022-04-06 11:55:30 - SQL Error: 90121, SQLState: 90121
+""2022-04-06 11:55:30 - Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+""2022-04-06 11:55:30 - SQL Error: 90121, SQLState: 90121
+""2022-04-06 11:55:30 - Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+""2022-04-06 11:55:30 - Invocation of destroy method failed on bean with name 'entityManagerFactory': org.hibernate.exception.JDBCConnectionException: Unable to release JDBC Connection used for DDL execution
+""2022-04-06 11:55:30 - HikariPool-1 - Shutdown initiated...
+""2022-04-06 11:55:30 - HikariPool-1 - Shutdown completed.
+""2022-04-06 11:57:20 - Starting PretestApplication using Java 1.8.0_251 on LAPTOP-G6H7M922 with PID 18420 (D:\Doc\AfterS1\inti_corpora\pretest\build\libs\pretest-0.0.1-SNAPSHOT.jar started by Sufyan Saori in D:\Doc\AfterS1\inti_corpora\pretest)
+""2022-04-06 11:57:20 - The following 1 profile is active: "dev"
+""2022-04-06 11:57:20 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+""2022-04-06 11:57:20 - Finished Spring Data repository scanning in 27 ms. Found 2 JPA repository interfaces.
+""2022-04-06 11:57:21 - Tomcat initialized with port(s): 8080 (http)
+""2022-04-06 11:57:21 - Starting service [Tomcat]
+""2022-04-06 11:57:21 - Starting Servlet engine: [Apache Tomcat/9.0.60]
+""2022-04-06 11:57:21 - Initializing Spring embedded WebApplicationContext
+""2022-04-06 11:57:21 - Root WebApplicationContext: initialization completed in 1200 ms
+""2022-04-06 11:57:21 - HikariPool-1 - Starting...
+""2022-04-06 11:57:21 - HikariPool-1 - Start completed.
+""2022-04-06 11:57:21 - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+""2022-04-06 11:57:21 - HHH000204: Processing PersistenceUnitInfo [name: default]
+""2022-04-06 11:57:21 - HHH000412: Hibernate ORM core version 5.6.7.Final
+""2022-04-06 11:57:22 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+""2022-04-06 11:57:22 - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+""2022-04-06 11:57:22 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+""2022-04-06 11:57:22 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+""2022-04-06 11:57:23 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+""2022-04-06 11:57:24 - Tomcat started on port(s): 8080 (http) with context path ''
+""2022-04-06 11:57:24 - Started PretestApplication in 4.268 seconds (JVM running for 4.583)
+""2022-04-06 11:57:34 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+""2022-04-06 11:57:34 - Initializing Servlet 'dispatcherServlet'
+""2022-04-06 11:57:34 - Completed initialization in 1 ms
+""2022-04-06 11:57:41 - Init duration for springdoc-openapi is: 276 ms
+""2022-04-06 11:58:54 - Resolved [org.springframework.web.bind.MissingPathVariableException: Required URI template variable 'id' for method parameter type User is present but converted to null]
+""2022-04-06 11:58:55 - Resolved [org.springframework.web.bind.MissingPathVariableException: Required URI template variable 'id' for method parameter type User is present but converted to null]
+""2022-04-06 12:02:46 - Resolved [org.springframework.web.bind.MissingPathVariableException: Required URI template variable 'id' for method parameter type User is present but converted to null]
+""2022-04-06 12:05:24 - Resolved [org.springframework.web.bind.MissingPathVariableException: Required URI template variable 'id' for method parameter type User is present but converted to null]
+""2022-04-06 12:12:10 - Closing JPA EntityManagerFactory for persistence unit 'default'
+""2022-04-06 12:12:10 - HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+""2022-04-06 12:12:10 - HikariPool-1 - Shutdown initiated...
+""2022-04-06 12:12:10 - HikariPool-1 - Shutdown completed.
+""2022-04-06 12:12:42 - Starting PretestApplicationTests using Java 1.8.0_251 on LAPTOP-G6H7M922 with PID 6568 (started by Sufyan Saori in D:\Doc\AfterS1\inti_corpora\pretest)
+""2022-04-06 12:12:42 - The following 1 profile is active: "dev"
+""2022-04-06 12:12:42 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+""2022-04-06 12:12:42 - Finished Spring Data repository scanning in 30 ms. Found 2 JPA repository interfaces.
+""2022-04-06 12:12:43 - HikariPool-1 - Starting...
+""2022-04-06 12:12:43 - HikariPool-1 - Start completed.
+""2022-04-06 12:12:43 - HHH000204: Processing PersistenceUnitInfo [name: default]
+""2022-04-06 12:12:43 - HHH000412: Hibernate ORM core version 5.6.7.Final
+""2022-04-06 12:12:43 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+""2022-04-06 12:12:43 - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+""2022-04-06 12:12:44 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+""2022-04-06 12:12:44 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+""2022-04-06 12:12:44 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+""2022-04-06 12:12:45 - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+""2022-04-06 12:12:45 - Started PretestApplicationTests in 3.834 seconds (JVM running for 4.715)
+""2022-04-06 12:12:46 - User with id Test1 was not found
+""2022-04-06 12:12:46 - Closing JPA EntityManagerFactory for persistence unit 'default'
+""2022-04-06 12:12:46 - HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+""2022-04-06 12:12:46 - SQL Error: 90121, SQLState: 90121
+""2022-04-06 12:12:46 - Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+""2022-04-06 12:12:46 - SQL Error: 90121, SQLState: 90121
+""2022-04-06 12:12:46 - Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+""2022-04-06 12:12:46 - Invocation of destroy method failed on bean with name 'entityManagerFactory': org.hibernate.exception.JDBCConnectionException: Unable to release JDBC Connection used for DDL execution
+""2022-04-06 12:12:46 - HikariPool-1 - Shutdown initiated...
+""2022-04-06 12:12:46 - HikariPool-1 - Shutdown completed.
+""2022-04-06 12:17:12 - Starting PretestApplication using Java 1.8.0_251 on LAPTOP-G6H7M922 with PID 32528 (D:\Doc\AfterS1\inti_corpora\pretest\build\libs\pretest-0.0.1-SNAPSHOT.jar started by Sufyan Saori in D:\Doc\AfterS1\inti_corpora\pretest)
+""2022-04-06 12:17:12 - The following 1 profile is active: "dev"
+""2022-04-06 12:17:13 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+""2022-04-06 12:17:13 - Finished Spring Data repository scanning in 27 ms. Found 2 JPA repository interfaces.
+""2022-04-06 12:17:13 - Tomcat initialized with port(s): 8080 (http)
+""2022-04-06 12:17:13 - Starting service [Tomcat]
+""2022-04-06 12:17:13 - Starting Servlet engine: [Apache Tomcat/9.0.60]
+""2022-04-06 12:17:14 - Initializing Spring embedded WebApplicationContext
+""2022-04-06 12:17:14 - Root WebApplicationContext: initialization completed in 1227 ms
+""2022-04-06 12:17:14 - HikariPool-1 - Starting...
+""2022-04-06 12:17:14 - HikariPool-1 - Start completed.
+""2022-04-06 12:17:14 - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+""2022-04-06 12:17:14 - HHH000204: Processing PersistenceUnitInfo [name: default]
+""2022-04-06 12:17:14 - HHH000412: Hibernate ORM core version 5.6.7.Final
+""2022-04-06 12:17:14 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+""2022-04-06 12:17:14 - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+""2022-04-06 12:17:15 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+""2022-04-06 12:17:15 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+""2022-04-06 12:17:15 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+""2022-04-06 12:17:16 - Tomcat started on port(s): 8080 (http) with context path ''
+""2022-04-06 12:17:16 - Started PretestApplication in 4.216 seconds (JVM running for 4.52)
+""2022-04-06 12:17:21 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+""2022-04-06 12:17:21 - Initializing Servlet 'dispatcherServlet'
+""2022-04-06 12:17:21 - Completed initialization in 1 ms
+""2022-04-06 12:17:21 - Init duration for springdoc-openapi is: 298 ms
+""2022-04-06 12:18:17 - Closing JPA EntityManagerFactory for persistence unit 'default'
+""2022-04-06 12:18:17 - HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+""2022-04-06 12:18:17 - HikariPool-1 - Shutdown initiated...
+""2022-04-06 12:18:17 - HikariPool-1 - Shutdown completed.
 "
